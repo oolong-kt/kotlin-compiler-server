@@ -58,6 +58,8 @@ dependencies {
     kotlinDependency("org.jetbrains.kotlin:kotlin-test:$kotlinVersion")
     kotlinDependency("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
     kotlinJsDependency("org.jetbrains.kotlin:kotlin-stdlib-js:$kotlinVersion")
+    // Oolong
+    kotlinDependency("org.oolong-kt:oolong:2.0.7")
 
     annotationProcessor("org.springframework:spring-context-indexer")
     implementation("org.springframework.boot:spring-boot-starter-web")
