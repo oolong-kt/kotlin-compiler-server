@@ -37,6 +37,7 @@ allprojects {
     repositories {
         mavenCentral()
         maven("https://cache-redirector.jetbrains.com/kotlin.bintray.com/kotlin-plugin")
+        maven("https://oss.sonatype.org/content/repositories/snapshots")
     }
     afterEvaluate {
         dependencies {
@@ -59,7 +60,7 @@ dependencies {
     kotlinDependency("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8")
     kotlinJsDependency("org.jetbrains.kotlin:kotlin-stdlib-js:$kotlinVersion")
     // Oolong
-    kotlinDependency("org.oolong-kt:oolong-jvm:2.0.7")
+    kotlinDependency("org.oolong-kt:oolong-jvm:2.0.8-SNAPSHOT")
 
     annotationProcessor("org.springframework:spring-context-indexer")
     implementation("org.springframework.boot:spring-boot-starter-web")
